@@ -69,3 +69,18 @@ align-items: center;
   align-items: center;
   justify-content: center;
 }
+
+.wrapper .form input{
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  height: 40px;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: .1rem solid green;
+}
+
+.wrapper .form input::placeholder{
+  padding-left: .5rem;
+  color: black;
+}
