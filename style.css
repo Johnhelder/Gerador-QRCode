@@ -6,7 +6,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-h1{
-  font-size: 2rem;
-  color: brown;
+html{
+  font-size: 62.5%;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, rgba(23, 125, 0.1)0%,
+                              rgba(204, 244, 209, 1)49%,
+                              rgba(131, 242, 160, 1)58%,
+                              rgba(23, 125, 0, 1)100%);
 }
