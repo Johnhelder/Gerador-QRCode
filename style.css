@@ -15,3 +15,24 @@ html{
                               rgba(131, 242, 160, 1)58%,
                               rgba(23, 125, 0, 1)100%);
 }
+
+body{
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper{background-color: #eeeeee;
+height: 250px;
+width: 600px;
+border-radius: 10px;
+box-shadow: 0 .8rem 2.5rem rgba(0, 0, 0, .8);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.wrapper.active{
+  height: 300px;
+  padding-right: 50px;
+}
