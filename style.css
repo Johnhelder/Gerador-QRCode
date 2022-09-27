@@ -22,8 +22,10 @@ body{
   place-items: center;
 }
 
-.wrapper{background-color: #eeeeee;
+.wrapper{
+background-color: #eeeeee;
 height: 250px;
+padding-right: 50px;
 width: 600px;
 border-radius: 10px;
 box-shadow: 0 .8rem 2.5rem rgba(0, 0, 0, .8);
@@ -34,7 +36,6 @@ align-items: center;
 
 .wrapper.active{
   height: 300px;
-  padding-right: 50px;
 }
 
 .wrapper.active .header h1{
@@ -93,4 +94,25 @@ align-items: center;
   border-radius: 5px;
   color: #eeeeee;
   cursor: pointer;
+}
+
+.wrapper .qr-code{
+  display: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  border: 1px solid #cccccc;
+}
+
+.wrapper .qr-code img{
+  width: 170px;
+}
+
+.wrapper.active .qr-code{
+  display: block;
+  transition: all .5s .5s ease;
+
 }
