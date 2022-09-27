@@ -84,3 +84,13 @@ align-items: center;
   padding-left: .5rem;
   color: black;
 }
+
+.wrapper .form button{
+  width: 100%;
+  height: 40px;
+  background-color: rgba(74, 151, 97);
+  outline: none;
+  border-radius: 5px;
+  color: #eeeeee;
+  cursor: pointer;
+}
