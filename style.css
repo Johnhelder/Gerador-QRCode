@@ -96,6 +96,14 @@ align-items: center;
   cursor: pointer;
 }
 
+
+.wrapper .form button:hover{
+  border: .1rem solid rgb(74, 151, 97);
+  color: rgb(74, 151, 97);
+  background-color: transparent;
+  font-weight: bold;
+}
+
 .wrapper .qr-code{
   display: none;
   padding: 10px;
@@ -114,5 +122,4 @@ align-items: center;
 .wrapper.active .qr-code{
   display: block;
   transition: all .5s .5s ease;
-
 }
